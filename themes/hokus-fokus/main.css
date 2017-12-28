@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700");
+@-ms-viewport {
+  width: device-width; }
+
+@-o-viewport {
+  width: device-width; }
+
+@viewport {
+  width: device-width; }
+
+:root {
+  --scale-multiplier: 1; }
+  @media (max-height: 805px) and (min-aspect-ratio: 16 / 10) {
+    :root {
+      --scale-multiplier: 0.9; } }
+  @media (max-height: 650px) and (min-aspect-ratio: 16 / 10) {
+    :root {
+      --scale-multiplier: 0.8; } }
+
+html,
+body {
+  min-height: 100vh;
+  background: #fff; }
+
+html {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+/*# sourceMappingURL=main.css.map */
