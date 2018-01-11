@@ -13,11 +13,19 @@
 
 	</div><!-- #content -->
 
-	<footer class="site-footer">
-		<div class="site-info">
-			footer
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer class="footer">
+		<div class="container">
+			<div>LOGO</div>
+			<div class="footer-info">
+				<div>
+					<?php the_field('contact_address', 'option'); ?> - <?php the_field('contact_location', 'option'); ?>
+				</div>
+				<div>
+					<?php the_field('contact_email', 'option'); ?> - <?php the_field('contact_phone', 'option'); ?>
+				</div>
+			</div>
+		</div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
